@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #212121;
+    font-family: 'Roboto', sans-serif;
+    color: #E4E4E4;
+}
+
+.container-principal {
+    color: #E4E4E4;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 90%; /* Largura ajustada para 90% da largura da tela */
+    max-width: 400px; /* Largura máxima */
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #3498db; /* Azul */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+    text-decoration: underline #3498db; /* Azul */
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #3498db; /* Azul */
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db; /* Azul */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9; /* Azul mais escuro ao passar o mouse */
+}
+
+@media screen and (max-width: 480px) {
+    /* Estilos específicos para telas com largura máxima de 480px (dispositivos móveis) */
+    .container-principal {
+        width: 100%; /* Ocupar 100% da largura da tela */
+        border-radius: 0; /* Remover borda arredondada */
+    }
+}
