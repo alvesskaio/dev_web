@@ -71,7 +71,7 @@ function verificarSenha(event) {
     event.preventDefault();
 
     const senhaDigitada = document.getElementById('senha').value;
-    const senhaCorreta = 'LUCAS';
+    const senhaCorreta = 'SENHA';
 
     if (senhaDigitada === senhaCorreta) {
       window.location.href = 'atletas.html';
